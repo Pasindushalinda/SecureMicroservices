@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5005",
-      "sslPort": 44351
+      "applicationUrl": "http://localhost:32584",
+      "sslPort": 44348
     }
   },
   "profiles": {
@@ -15,12 +15,13 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IdentityServer": {
+    "Movies.Client": {
       "commandName": "Project",
+      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5005",
+      "applicationUrl": "https://localhost:5002",
       "dotnetRunMessages": "true"
     }
   }
